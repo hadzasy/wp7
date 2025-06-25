@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>belah ketupat</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div>
 
-    <a href="index.php">Home</a>
+        <a class='link' href="index.php">Home</a>
+    <div>
+
+        <button onclick="document.documentElement.classList.add('dark')">
+            dark
+        </button>
+        <button onclick="document.documentElement.classList.remove('dark')">
+            light
+        </button>
+    </div>
+        
+    </div>
+
      <h1>belah ketupat</h1>
      <form action="belah_ketupatcopy.php" method="post">
         <table>
@@ -51,5 +65,6 @@
             </tr>
         </table>
 </form>
+<script src="index.js"></script>
 </body>
 </html>

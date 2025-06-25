@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jajargenjang</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
   
 <a href="index.php">Home</a>
+      <button onclick="document.documentElement.classList.add('dark')">
+        dark
+    </button>
+    <button onclick="document.documentElement.classList.remove('dark')">
+        light
+    </button>
    <h1>jajargenjang</h1> 
    <form action="jajargenjangcopy.php" method="post">
     <table>
@@ -51,5 +58,6 @@
         </tr>
     </table>
    </form>
+   <script src="index.js"></script>
 </body>
 </html>

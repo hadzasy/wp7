@@ -1,0 +1,36 @@
+html{
+    background-color: white;
+    color: rgb(23, 5, 5);
+    /* background-image: url('https://cdn.grid.id/crop/0x0:0x0/x/photo/2022/10/09/volume-limasjpg-20221009084335.jpg'); */
+    /* background-repeat: no-repeat ; */
+    background-size: cover;
+}
+
+table{
+    color: rgb(3, 93, 172);
+
+}
+
+h1{
+    color: rgb(4, 76, 139);
+    
+}
+
+img{
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgb(100, 47, 234);
+    color: rgb(255, 255, 5);
+    box-shadow: 0px 0px 12px 12px gray;
+    border-style: solid;
+    border-color: rgb(5, 227, 12);
+    margin-top: 20px;
+    
+}
+
+form{
+    margin: auto;
+}

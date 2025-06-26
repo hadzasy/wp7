@@ -8,12 +8,12 @@
 </head>
 <body>
   
-<a href="index.php">Home</a>
-      <button onclick="document.documentElement.classList.add('dark')">
+<a class='link'href="index.php">Home</a>
+      <!-- <button onclick="document.documentElement.classList.add('dark')">
         dark
     </button>
     <button onclick="document.documentElement.classList.remove('dark')">
-        light
+        light -->
     </button>
    <h1>jajargenjang</h1> 
    <form action="jajargenjangcopy.php" method="post">

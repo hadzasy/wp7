@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lingkaran</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<a href="index.php">Home</a>
+<a class='link'href="index.php">Home</a>
     <h1>lingkaran</h1>
     <form action="lingkarancopy.php" method="post">
         <table>
@@ -15,6 +16,23 @@
                 <td> Jari-jari</td>
                 <td>:</td>
                 <td> <input type="number" name="jari"><br></td>
+                     <tr>
+                <td> Masukkan diagonal 1</td>
+                <td>:</td>
+                <td> <input type="number" name="d1"> <br></td>
+            </tr>
+
+            <tr>
+                <td>Masukkan diagonal 2</td>
+                <td>:</td>
+                <td><input type="number" name="d2"> <br></td>
+            </tr>
+
+            <tr>
+                <td>Masukkan sisi</td>
+                <td>:</td>
+                <td><input type="number" name="sisi"> <br></td>
+            </tr>
             </tr>
 
              <tr>
@@ -39,5 +57,6 @@
             </tr>
         </table>  
     </form>
+    <script src="index.js"></script>
 </body>
 </html>

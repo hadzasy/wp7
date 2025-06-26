@@ -68,6 +68,6 @@
 
    <!-- <h4>Luas = alas x tinggi = <?php echo $luas;?></h4> -->
    <!-- <h4>Keliling = 2 x (alas+sisi miring) = <?php echo $keliling;?></h4> -->
-   <img src="rumus_luas_jajar_genjang-x.width-800.format-webp.webp" width="300" height="300" alt="ilang">
+   <img src="jajargenjang.png"width-800.format-webp.webp" width="300" height="300" alt="ilang">
 </body>
 </html>

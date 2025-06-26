@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>persegi panjang</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<a href="index.php">Home</a>
+<a class='link'href="index.php">Home</a>
     <h1>persegi panjang</h1>
     <form action="persegi_panjangcopy.php" method="post">
         <table>
@@ -44,5 +45,6 @@
                 <td>     <input type="submit" value="Hitung"></td>
             </tr>
     </form>
+    <script src="index.js"></script>
 </body>
 </html>

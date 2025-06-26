@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>layang2</title>
+    <title>Layang layang</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<a href="index.php">Home</a>
-    <h1>layang2</h1>
-    <form action="layang2copy.php" method="post">
+<a class='link'href="index.php">Home</a>
+    <h1>Layang layang</h1>
+    <form action="layanglayangcopy.php" method="post">
         <table>
             <tr>
                 <td>Diagonal 1</td>
@@ -36,14 +37,14 @@
             </tr>
 
              <tr>
-                <td>pilih</td>
+                <td>Pilih</td>
                 <td>:</td>
                 <td><input type="radio" name="pilih" value="luas">
                 <label for="html">Luas</label> <br>
                 <input type="radio" name="pilih" value="keliling">
-                <label for="html">keliling</label> <br>
+                <label for="html">Keliling</label> <br>
                 <input type="radio" name="pilih" value="semua">
-                <label for="html">semua</label> <br>
+                <label for="html">Semua</label> <br>
                 </td>
                 <td>
 
@@ -57,5 +58,6 @@
             </tr>
         </table>
     </form>
+    <script src="index.js"></script>
 </body>
 </html>

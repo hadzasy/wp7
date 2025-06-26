@@ -70,4 +70,4 @@
     <!-- <h4>keliling = sisi1 + sisi2 + sisi3= <?php echo $keliling;?></h4> -->
     <img src="segitiga-bangun-datar.png" widht="200" height="200" alt="">
 </body>
-</html>Add comment
+</html>

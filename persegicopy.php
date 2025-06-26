@@ -63,7 +63,7 @@ $pilih = $_POST['pilih'];
 
     <!-- <h4>Luas = sisi x sisi = <?php echo $luas;?></h4> -->
     <!-- <h4>Keliling = 4 x sisi = <?php echo $keliling;?></h4> -->
-    <img src="persegi.webp" widht="200" height="200" alt="ilang">
+    <img src="persegi.png" widht="200" height="200" alt="ilang">
 </body>
 
-</html>Add comment
+</html>

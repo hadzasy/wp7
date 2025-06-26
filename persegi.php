@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>persegi</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    
-<a href="index.php">Home</a>
+<a class='link' href="index.php">Home</a>
     <h1>persegi</h1>
     <form action="persegicopy.php" method="post">
         <table>
@@ -15,6 +16,23 @@
                 <td>Masukkan Sisi</td>
                 <td>:</td>
                 <td><input type="number" name="sisi" id=""></td>
+                     <tr>
+                <td> Masukkan diagonal 1</td>
+                <td>:</td>
+                <td> <input type="number" name="d1"> <br></td>
+            </tr>
+
+            <tr>
+                <td>Masukkan diagonal 2</td>
+                <td>:</td>
+                <td><input type="number" name="d2"> <br></td>
+            </tr>
+
+            <tr>
+                <td>Masukkan sisi</td>
+                <td>:</td>
+                <td><input type="number" name="sisi"> <br></td>
+            </tr>
             </tr>
 
 
@@ -35,5 +53,6 @@
         </table>      
         <td><input type="submit" value="Hitung Luas Dan Keliling"></td>
     </form>
+    <script src="index.js"></script>
 </body>
-</html>Add comment
+</html>
